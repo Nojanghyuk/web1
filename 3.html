@@ -3,18 +3,63 @@
 <head>
   <title>STARBUCKS</title>
     <meta charset="utf-8">
+    <style>
+    a{
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .logoimg{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 20px;
+      padding-bottom: 30px;
+      width: 2%;
+    }
+    .sub{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      width: 35%;
+    }
+    h1{
+      text-align: center;
+    }
+    #menu{
+      display:grid;
+      grid-template-columns: 110px 100px 100px;
+      padding-left: 1145px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      border-bottom:1px solid black;
+      border-top:1px solid black;
+    }
+    h3{
+      text-align: center;
+      margin-top: 40px;
+    }
+    p{
+      text-align: center;
+    }
+    .saw{
+      color:green;
+    }
+    a{
+        font-weight:900;
+    }
+    </style>
 </head>
 <body>
-  <a href="index.html"><img src="starbucks.png" width="2%"></a>
-  <h1>STARBUCKS CARD</h1>
-  <ol>
-    <li><a href="1.html">STORY</a></li>
-    <li><a href="2.html">STAR</a></li>
-    <li><a href="3.html">MEMBERSHIP</a></li>
-  </ol>
-  <img src="card.jpg" width="35%">
+  <a href="index.html"><img src="starbucks.png" width="2%" class="logoimg"></a>
+  <div id="menu">
+    <div><a href="1.html">STORY</a></div>
+    <div><a href="2.html">STAR</a></div>
+    <div><a href="3.html" class="saw">CARD</a></div>
+  </div>
+  <img src=card.jpg width="35%" class="sub">
   <p>
-    <strong>스타벅스 카드 특징</strong><br>
     스타벅스 카드는 국내에서만 사용이 가능합니다. (외국에서 발행한 스타벅스 카드는 국내에서 사용 불가)<br>
     최초충전 금액 및 단위 : 5,000원~500,000원 (1만원 이상부터는 만원 단위로 충전가능)<br>
     재충전 금액 및 단위 : 10,000원~550,000원 (만원 단위/최대 잔액 55만원 내에서 선택가능)<br>
